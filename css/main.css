@@ -1,0 +1,46 @@
+
+
+.slant-top {
+  height: 800px;
+  background-image: -webkit-linear-gradient(195deg, transparent 48%, #fff 0);
+  background-image: linear-gradient(185deg, transparent 66%, #fff 0),
+  url("");
+  background-position: 0px 0px, 50% 21%;
+  background-color: #e52f36;
+  color: #fff;
+
+  overflow: hidden;
+  -webkit-clip-path: polygon(0% 0%, 0% 55%, 180% 95%, 100% 90%, 100% 0%);
+  clip-path: polygon(0% 0%, 0% 55%, 180% 95%, 100% 90%, 100% 0%)
+}
+
+.slant-bottom {
+  height: 450px;
+  background-color: #fff;
+  background-position: 50% 50%;
+  color: #fff;
+}
+
+#bg_video {
+  width: 1800px;
+  height: 1000px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#info {
+  font-family: 'Russo One', sans-serif;
+  font-size: 24em;
+  letter-spacing: 10px;
+  width: 100%;
+  padding: 0;
+  fill: #000;
+}
+
+#masked {
+  mask: url(#mask_layer);
+}
