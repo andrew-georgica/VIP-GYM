@@ -1,8 +1,32 @@
 
 header {
-  background-color: #161414;
+  background-color: #191919;
   height: 100px;
   z-index: 10;
+}
+
+header a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all .3 ease-in-out;
+  transition: all .3s ease-out;
+}
+
+header a:hover, header a:focus, header a:active {
+  color: #dcdde1;
+  text-decoration: none;
+}
+
+header h3 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-top: 32px;
+}
+
+header img {
+  margin: 0 auto;
 }
 
 /* MENU */
@@ -153,16 +177,16 @@ Burger king
 .open-overlay {
   position: absolute;
   right: 2.5rem;
-  top: 2rem;
+  top: 1.8rem;
   z-index: 100;
-  width: 34px;
+  width: 38px;
   display: block;
   cursor: pointer;
 }
 
 .open-overlay span {
   display: block;
-  height: 1px;
+  height: 3px;
   background-color: #fff;
   cursor: pointer;
   margin-top: 8px;
@@ -307,21 +331,6 @@ Animation keyframes
   }
 }
 
-.home a {
-  font-family: "Work Sans", sans-serif;
-  color: #222;
-  font-weight: 300;
-  font-size: 12px;
-  text-transform: uppercase;
-  text-decoration: none;
-  position: absolute;
-  z-index: 10;
-  top: 50px;
-  left: 50px;
-  padding-bottom: 3px;
-  border-bottom: 1px solid #222;
-}
-
 @media (max-width: 640px) {
   nav ul {
     -webkit-box-orient: vertical;
@@ -354,7 +363,7 @@ Animation keyframes
 /* END MENU */
 
 .slant-top {
-  height: 900px;
+  height: 1000px;
   background-image: -webkit-linear-gradient(195deg, transparent 48%, #fff 0);
   background-image: linear-gradient(185deg, transparent 66%, #fff 0),
   url("");
