@@ -7,10 +7,12 @@ header {
 
 header a {
   display: block;
+  margin: 0 auto;
   color: #fff;
   text-decoration: none;
   -webkit-transition: all .3 ease-in-out;
   transition: all .3s ease-out;
+
 }
 
 header a:hover, header a:focus, header a:active {
@@ -376,13 +378,6 @@ Animation keyframes
   clip-path: polygon(0% 0%, 0% 55%, 180% 95%, 100% 90%, 100% 0%)
 }
 
-.slant-bottom {
-  height: 850px;
-  background-color: #fff;
-  background-position: 50% 50%;
-  color: #000;
-}
-
 #bg_video {
   width: 1800px;
   height: 1000px;
@@ -405,4 +400,31 @@ Animation keyframes
 
 #masked {
   mask: url(#mask_layer);
+}
+
+.top_title {
+  color: #191919;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8em;
+  font-weight: 400;
+  top: 550px;
+  right: 0;
+  position: absolute;
+}
+
+.top_title span {
+  display: block;
+  width: 50px;
+  border: 1px solid #191919;
+  height: 2px;
+  float: right;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.slant-bottom {
+  height: 850px;
+  background-color: #fff;
+  background-position: 50% 50%;
+  color: #000;
 }
