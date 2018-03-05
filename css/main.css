@@ -527,11 +527,11 @@ Animation keyframes
 /* ADVENTAGES SECTION */
 
 .slant-bottom {
-  margin-top: 167px;
+  margin-top: 163px;
   height: 1300px;
   background-color: #191919;
   background-image: url("../img/advantages/1.png");
-
+  background-attachment: fixed;
   -webkit-clip-path: polygon(0 20%, 100% 8%, 100% 94%, 0 85%);
   clip-path: polygon(0 15%, 100% 8%, 100% 94%, 0 85%);
   color: #000;
@@ -547,6 +547,11 @@ Animation keyframes
 #advantages_article h3 {
   color: #fff;
   text-align: center;
+  z-index: 5;
+  position: absolute;
+  top: 195px;
+  left: 50%;
+  margin-left: -130px;
 }
 
 ul.advantages_list {
@@ -579,8 +584,60 @@ ul.advantages_list li article h4 {
 
 ul.advantages_list li article p {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-weight: 400;
+  width: 1400px;
 }
+
+/* advantages section triangles */
+
+.triangle-left {
+  display: block;
+  position: absolute;
+  top: 185px;
+  right: 690px;
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-right: 70px solid #e52f36;
+  border-bottom: 40px solid transparent;
+}
+
+#triangle2.triangle-left {
+  right: 100px;
+  top: 375px;
+  border-top:  45px solid transparent;
+  border-right: 90px solid #e52f36;
+  border-bottom: 45px solid transparent;
+}
+
+
+#triangle_section {
+  position: relative;
+  font-size: 8em;
+}
+
+#triangle_section span {
+  color: #e52f36;
+  display: block;
+  text-shadow: 0 0 20px black;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -20px;
+  z-index: 6;
+
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
+#buffer {
+  height: 800px;
+  background-color: #ccc;
+}
+
+/* end advantages section triangles */
 
 /* END ADVENTAGES SECTION  */
