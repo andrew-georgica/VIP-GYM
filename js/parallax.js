@@ -3,12 +3,20 @@ $(window).scroll(function(){
 
   var wScroll = $(this).scrollTop();
 
-    $('#triangle1').css({
-      'transform' : 'translate(0px, '+ wScroll /2.5 +'%)'
+    $('.quote_img').css({
+      'transform' : 'translate(0px, '+ wScroll /25 +'%)'
+    });
+
+    $('.header_quote').css({
+      'transform' : 'translate(0px, -'+ wScroll /9 +'%)'
+    });
+
+    $('.quote').css({
+      'transform' : 'translate('+ wScroll /30 +'%, 0px)'
     });
 
     $('#triangle2').css({
-      'transform' : 'translate(0px, -'+ wScroll /2.5 +'%)'
+      'transform' : 'translate(0px, -'+ wScroll /2 +'%)'
     });
 
     $('#triangle3').css({

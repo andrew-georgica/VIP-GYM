@@ -448,14 +448,14 @@ Animation keyframes
   color: #b2bec3;
   width: 600px;
   position: absolute;
-  top: -225px;
+  top: -40px;
   left: 50px;
 }
 
 .quote_img {
   position: absolute;
   z-index: 1;
-  top: -255px;
+  top: -350px;
   left: 115px;
 }
 
@@ -464,7 +464,7 @@ Animation keyframes
   top: 0;
   width: 450px;
   top: -180px;
-  right: 250px;
+  right: 400px;
 }
 
 .quote h3 {
@@ -515,7 +515,7 @@ Animation keyframes
   position: absolute;
   bottom: -25px;
   right: 20px;
-  transition: all .3s easy-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .quote .quote_btn:hover {
@@ -530,8 +530,10 @@ Animation keyframes
   margin-top: 163px;
   height: 1300px;
   background-color: #191919;
-  background-image: url("../img/advantages/1.png");
-
+  background-image: url("../img/advantages/2.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
   -webkit-clip-path: polygon(0 20%, 100% 8%, 100% 94%, 0 85%);
   clip-path: polygon(0 15%, 100% 8%, 100% 94%, 0 85%);
   color: #000;
@@ -594,8 +596,8 @@ ul.advantages_list li article p {
 .triangle-left {
   display: block;
   position: absolute;
-  top: -100px;
-  right: 720px;
+  top: 182px;
+  right: 715px;
   width: 0;
   height: 0;
   border-top: 40px solid transparent;
@@ -604,11 +606,16 @@ ul.advantages_list li article p {
 }
 
 #triangle2.triangle-left {
-  right: 100px;
+  right: 450px;
   top: 900px;
   border-top:  45px solid transparent;
   border-right: 90px solid #e52f36;
   border-bottom: 45px solid transparent;
+
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
 }
 
 
