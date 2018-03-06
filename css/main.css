@@ -531,7 +531,7 @@ Animation keyframes
   height: 1300px;
   background-color: #191919;
   background-image: url("../img/advantages/1.png");
-  background-attachment: fixed;
+
   -webkit-clip-path: polygon(0 20%, 100% 8%, 100% 94%, 0 85%);
   clip-path: polygon(0 15%, 100% 8%, 100% 94%, 0 85%);
   color: #000;
@@ -594,8 +594,8 @@ ul.advantages_list li article p {
 .triangle-left {
   display: block;
   position: absolute;
-  top: 185px;
-  right: 690px;
+  top: -100px;
+  right: 720px;
   width: 0;
   height: 0;
   border-top: 40px solid transparent;
@@ -605,7 +605,7 @@ ul.advantages_list li article p {
 
 #triangle2.triangle-left {
   right: 100px;
-  top: 375px;
+  top: 900px;
   border-top:  45px solid transparent;
   border-right: 90px solid #e52f36;
   border-bottom: 45px solid transparent;
@@ -617,13 +617,13 @@ ul.advantages_list li article p {
   font-size: 8em;
 }
 
-#triangle_section span {
+#triangle_section #triangle3 {
   color: #e52f36;
   display: block;
   text-shadow: 0 0 20px black;
   position: absolute;
-  bottom: 50px;
-  left: 50%;
+  bottom: 70px;
+  left: 300px;
   margin-left: -20px;
   z-index: 6;
 
@@ -634,8 +634,8 @@ ul.advantages_list li article p {
 }
 
 #buffer {
-  height: 800px;
-  background-color: #ccc;
+  height: 1000px;
+  background-color: pink;
 }
 
 /* end advantages section triangles */
