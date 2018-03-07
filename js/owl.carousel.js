@@ -1469,13 +1469,13 @@ if (typeof Object.create !== "function") {
         stopOnHover : false,
 
         navigation : true,
-        navigationText : ["◀",
-                          "▶"
+        navigationText : ["&#9668;",
+                          "&#9658;"
                          ],
         rewindNav : true,
         scrollPerPage : false,
 
-        pagination : true,
+        pagination : false,
         paginationNumbers : false,
 
         responsive : true,

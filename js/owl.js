@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   $("#owl-1").owlCarousel({
 
-      autoPlay: 15000, //Set AutoPlay to 3 seconds
+      autoPlay: 115000, //Set AutoPlay to 3 seconds
 
       items : 1,
       itemsDesktop : [1199,4],
