@@ -23,4 +23,12 @@ $(window).scroll(function(){
       'transform' : 'translate('+ wScroll /5 +'%, 0px)'
     });
 
+    $('#triangle6').css({
+      'transform' : 'translate('+ wScroll /5 +'%, 0px)'
+    });
+
+    $('#triangle4').css({
+      'transform' : 'translate(0px, -'+ wScroll /4 +'%)'
+    });
+
 });
